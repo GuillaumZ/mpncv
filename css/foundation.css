@@ -1106,12 +1106,12 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #6e6d6e;
+  background-color: #007095;
   border-color: #007095;
   color: white;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #6e6d6e; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1149,7 +1149,9 @@ button, .button {
     padding-right: 1.75rem;
     padding-bottom: 0.9375rem;
     padding-left: 1.75rem;
-    font-size: 0.8125rem; }
+    font-size: 0.8125rem; 
+    width:100%;
+  }
   button.tiny, .button.tiny {
     padding-top: 0.625rem;
     padding-right: 1.25rem;
@@ -1291,7 +1293,8 @@ meta.foundation-mq-topbar {
     .top-bar .name h1 {
       line-height: 45px;
       font-size: 1.0625rem;
-      margin: 0; }
+      margin: 0;
+       }
       .top-bar .name h1 a {
         font-weight: normal;
         color: white;
@@ -2639,7 +2642,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.125rem; }
+  font-size: 2.125rem; 
+color:#007095;
+}
 
 h2 {
   font-size: 1.6875rem; }
