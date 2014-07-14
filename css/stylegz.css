@@ -9,12 +9,32 @@
 }
 
 img {
-	width: 50px;
+	
 }
 
 .rightside {
     position: absolute;
     right: 0px;
+}
+
+li {
+ padding-bottom: 10px;
+    line-height:normal;
+}
+
+@font-face {
+font-family: 'KGSummerSunshineBlackout';
+src: url('fonts/KGSummerSunshineBlackout.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'KGSummerSunshineShadow';
+src: url('fonts/KGSummerSunshineShadow.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'ArcadeFuture';
+src: url('fonts/Arcade Future.otf') format('truetype');
 }
 
 img.grayscale {
