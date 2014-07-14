@@ -1,0 +1,283 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>  
+    <script src="js/canvasjs/canvasjs.min.js"></script>
+	<script type="text/javascript">
+	window.onload = function () {
+		var chart = new CanvasJS.Chart("chartContainer", {
+
+			title:{
+				text:"Cost Of Pancake Ingredients, 2011"
+			},
+			axisX:{
+              	interval: 1,
+				labelFontSize: 10,
+				lineThickness: 0
+			},
+			axisY2:{
+				valueFormatString: "0 $",
+                lineThickness: 0				
+			},
+			toolTip: {
+				shared: true
+			},
+			legend:{
+				verticalAlign: "top",
+				horizontalAlign: "center"
+
+			},
+
+			data: [
+			{     
+				type: "stackedBar",
+				showInLegend: true,
+				name: "Coal",
+				axisYType: "secondary",
+				color: "#7E8F74",
+				dataPoints: [
+				
+{y: 0, label: 'Albania'},
+{y: 1, label: 'Algeria'},
+{y: 7, label: 'Argentina'},
+{y: 178, label: 'Australia'},
+{y: 13, label: 'Austria'},
+{y: 0, label: 'Azerbaijan'},
+{y: 0, label: 'Bahrain'},
+{y: 5, label: 'Bangladesh'},
+{y: 0, label: 'Belarus'},
+{y: 5, label: 'Belgium'},
+{y: 17, label: 'Bosnia and Herzegovina'},
+{y: 47, label: 'Brazil'},
+{y: 33, label: 'Bulgaria'},
+{y: 91, label: 'Canada'},
+{y: 19, label: 'Chile'},
+{y: 7591, label: 'China'},
+{y: 14, label: 'Colombia'},
+{y: 6, label: 'Croatia'},
+{y: 0, label: 'Cuba'},
+{y: 45, label: 'Czech Republic'},
+{y: 62, label: 'Democratic Peoples Republic of Korea'},
+{y: 9, label: 'Denmark'},
+{y: 2, label: 'Egypt'},
+{y: 39, label: 'France'},
+{y: 301, label: 'Germany'},
+{y: 1265, label: 'India'},
+{y: 135, label: 'Indonesia'},
+{y: 5, label: 'Iran (Islamic Republic of)'},
+{y: 54, label: 'Italy'},
+{y: 414, label: 'Japan'},
+{y: 141, label: 'Kazakhstan'},
+{y: 38, label: 'Mexico'},
+{y: 47, label: 'Netherlands'},
+{y: 213, label: 'Poland'},
+{y: 298, label: 'Republic of Korea'},
+{y: 456, label: 'Russian Federation'},
+{y: 0, label: 'Saudi Arabia'},
+{y: 363, label: 'South Africa'},
+{y: 56, label: 'Spain'},
+{y: 170, label: 'Taiwan'},
+{y: 66, label: 'Thailand'},
+{y: 138, label: 'Turkey'},
+{y: 137, label: 'Ukraine'},
+{y: 114, label: 'United Kingdom'},
+{y: 1894, label: 'United States of America'},
+{y: 4, label: 'Uzbekistan'},
+{y: 1, label: 'Venezuela'},
+{y: 41, label: 'Viet Nam'}
+
+
+				]
+			},
+			{     
+				type: "stackedBar",
+				showInLegend: true,
+				name: "Gas",
+				axisYType: "secondary",
+				color: "#F0E6A7",
+				dataPoints: [
+				
+				{y: 0, label: 'Albania'},
+{y: 0, label: 'Algeria'},
+{y: 90, label: 'Argentina'},
+{y: 54, label: 'Australia'},
+{y: 18, label: 'Austria'},
+{y: 24, label: 'Azerbaijan'},
+{y: 24, label: 'Bahrain'},
+{y: 39, label: 'Bangladesh'},
+{y: 41, label: 'Belarus'},
+{y: 34, label: 'Belgium'},
+{y: 0, label: 'Bosnia and Herzegovina'},
+{y: 49, label: 'Brazil'},
+{y: 5, label: 'Bulgaria'},
+{y: 174, label: 'Canada'},
+{y: 11, label: 'Chile'},
+{y: 256, label: 'China'},
+{y: 15, label: 'Colombia'},
+{y: 5, label: 'Croatia'},
+{y: 2, label: 'Cuba'},
+{y: 17, label: 'Czech Republic'},
+{y: 0, label: 'Democratic Peoples Republic of Korea'},
+{y: 9, label: 'Denmark'},
+{y: 100, label: 'Egypt'},
+{y: 96, label: 'France'},
+{y: 157, label: 'Germany'},
+{y: 125, label: 'India'},
+{y: 80, label: 'Indonesia'},
+{y: 303, label: 'Iran (Islamic Republic of)'},
+{y: 149, label: 'Italy'},
+{y: 215, label: 'Japan'},
+{y: 75, label: 'Kazakhstan'},
+{y: 118, label: 'Mexico'},
+{y: 80, label: 'Netherlands'},
+{y: 30, label: 'Poland'},
+{y: 96, label: 'Republic of Korea'},
+{y: 979, label: 'Russian Federation'},
+{y: 195, label: 'Saudi Arabia'},
+{y: 9, label: 'South Africa'},
+{y: 68, label: 'Spain'},
+{y: 34, label: 'Taiwan'},
+{y: 85, label: 'Thailand'},
+{y: 86, label: 'Turkey'},
+{y: 120, label: 'Ukraine'},
+{y: 162, label: 'United Kingdom'},
+{y: 1294, label: 'United States of America'},
+{y: 97, label: 'Uzbekistan'},
+{y: 47, label: 'Venezuela'},
+{y: 15, label: 'Viet Nam'}
+
+				]
+			},
+			{     
+				type: "stackedBar",
+				showInLegend: true,
+				name: "Gas flaring",
+				axisYType: "secondary",
+				color: "#EBB88A",
+				dataPoints: [
+				
+				{y: 0, label: 'Albania'},
+{y: 10, label: 'Algeria'},
+{y: 2, label: 'Argentina'},
+{y: 0, label: 'Australia'},
+{y: 0, label: 'Austria'},
+{y: 0, label: 'Azerbaijan'},
+{y: 0, label: 'Bahrain'},
+{y: 0, label: 'Bangladesh'},
+{y: 0, label: 'Belarus'},
+{y: 0, label: 'Belgium'},
+{y: 0, label: 'Bosnia and Herzegovina'},
+{y: 4, label: 'Brazil'},
+{y: 0, label: 'Bulgaria'},
+{y: 3, label: 'Canada'},
+{y: 0, label: 'Chile'},
+{y: 0, label: 'China'},
+{y: 1, label: 'Colombia'},
+{y: 0, label: 'Croatia'},
+{y: 0, label: 'Cuba'},
+{y: 0, label: 'Czech Republic'},
+{y: 0, label: 'Democratic Peoples Republic of Korea'},
+{y: 0, label: 'Denmark'},
+{y: 1, label: 'Egypt'},
+{y: 0, label: 'France'},
+{y: 2, label: 'Germany'},
+{y: 2, label: 'India'},
+{y: 6, label: 'Indonesia'},
+{y: 30, label: 'Iran (Islamic Republic of)'},
+{y: 0, label: 'Italy'},
+{y: 0, label: 'Japan'},
+{y: 0, label: 'Kazakhstan'},
+{y: 13, label: 'Mexico'},
+{y: 0, label: 'Netherlands'},
+{y: 0, label: 'Poland'},
+{y: 0, label: 'Republic of Korea'},
+{y: 31, label: 'Russian Federation'},
+{y: 0, label: 'Saudi Arabia'},
+{y: 0, label: 'South Africa'},
+{y: 0, label: 'Spain'},
+{y: 0, label: 'Taiwan'},
+{y: 0, label: 'Thailand'},
+{y: 0, label: 'Turkey'},
+{y: 0, label: 'Ukraine'},
+{y: 1, label: 'United Kingdom'},
+{y: 9, label: 'United States of America'},
+{y: 0, label: 'Uzbekistan'},
+{y: 14, label: 'Venezuela'},
+{y: 1, label: 'Viet Nam'}
+
+				]
+			},
+			{
+				type: "stackedBar",
+				showInLegend: true,
+				name: "Oil",
+				axisYType: "secondary",
+				color:"#DB9079",
+				dataPoints: [
+
+				{y: 8, label: 'Albania'},
+{y: 49, label: 'Algeria'},
+{y: 87, label: 'Argentina'},
+{y: 136, label: 'Australia'},
+{y: 36, label: 'Austria'},
+{y: 34, label: 'Azerbaijan'},
+{y: 6, label: 'Bahrain'},
+{y: 15, label: 'Bangladesh'},
+{y: 33, label: 'Belarus'},
+{y: 80, label: 'Belgium'},
+{y: 5, label: 'Bosnia and Herzegovina'},
+{y: 380, label: 'Brazil'},
+{y: 15, label: 'Bulgaria'},
+{y: 286, label: 'Canada'},
+{y: 39, label: 'Chile'},
+{y: 1115, label: 'China'},
+{y: 48, label: 'Colombia'},
+{y: 18, label: 'Croatia'},
+{y: 32, label: 'Cuba'},
+{y: 25, label: 'Czech Republic'},
+{y: 3, label: 'Democratic Peoples Republic of Korea'},
+{y: 24, label: 'Denmark'},
+{y: 97, label: 'Egypt'},
+{y: 247, label: 'France'},
+{y: 301, label: 'Germany'},
+{y: 428, label: 'India'},
+{y: 147, label: 'Indonesia'},
+{y: 281, label: 'Iran (Islamic Republic of)'},
+{y: 195, label: 'Italy'},
+{y: 518, label: 'Japan'},
+{y: 44, label: 'Kazakhstan'},
+{y: 292, label: 'Mexico'},
+{y: 122, label: 'Netherlands'},
+{y: 70, label: 'Poland'},
+{y: 213, label: 'Republic of Korea'},
+{y: 315, label: 'Russian Federation'},
+{y: 386, label: 'Saudi Arabia'},
+{y: 89, label: 'South Africa'},
+{y: 200, label: 'Spain'},
+{y: 107, label: 'Taiwan'},
+{y: 124, label: 'Thailand'},
+{y: 59, label: 'Turkey'},
+{y: 44, label: 'Ukraine'},
+{y: 223, label: 'United Kingdom'},
+{y: 2323, label: 'United States of America'},
+{y: 34, label: 'Uzbekistan'},
+{y: 132, label: 'Venezuela'},
+{y: 49, label: 'Viet Nam'}
+
+				]
+			}
+
+			]
+		});
+
+chart.render();
+}
+</script>
+<script type="text/javascript" src="/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+	<div id="chartContainer" style="height: 2300px; width: 100%;">
+	</div>
+</body>
+
+</html>
